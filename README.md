@@ -19,5 +19,3 @@ Companies:
 * Be Broadband
 
 * New Generation Skills
-
-* ...
