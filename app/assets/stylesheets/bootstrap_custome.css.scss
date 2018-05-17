@@ -3,53 +3,6 @@ $secondary-color  :#818282;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
-/**************************************************************************
-***************** Master Stylesheet************************
-***************************************************************************
-=========================== Content Index =================================
-* 1. Miscelnious styles
-* 2. Header styles
-* 3. slider styles
-* 4. Welcome section styles
-* 5. Full img sec styles
-* 6. FAQ sec styles
-* 7. Testimonial sec styles
-* 8. statics sec styles
-* 9. Testimonial sec styles
-* 10. Blog sec styles
-* 11. Client Carousel sec styles
-* 12. Home CTA sec styles
-* 13. Footer sec styles
-* 14. Inner Banner styles
-* 15. contact page styles
-* 16. Project page styles
-* 17. Blog page styles
-* 18. Services page styles
-* 19. 404 page styles
-* 20. Shop page styles
-* 21. About page styles
-* 22. Career page styles
-* 23. Cart page styles
-* 24. Checkout page styles
-* 25. Solutions page styles
-* 26. About Us page styles
-* 27. HomePage 2
-* 28. HomePage 3
-* 29. HomePage 4
-* 30. Company History styles
-* 31. Testimonials styles
-* 32. Partners page styles
-* 33. Comming Soon page styles
-* 34. Advisors page styles
-* 35. Single Member page styles
-* 36. Case Details page styles
-* 37. Case Details2 page styles
-***************************************************************************
-**************************************************************************/
-/***************************************
-* 1. Miscelnious styles
-****************************************/
-
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Roboto';
@@ -891,11 +844,11 @@ a:focus {
     padding: 88px 0;
 }
 .why-choose-bg {
-    background: url(../images/why-choose-bg.jpg) no-repeat;
+    background: url('../images/why-choose-bg.jpg') no-repeat;
     background-size: cover;
 }
 .why-choose-bg2 {
-    background: url(../images/new/bg11.jpg) right center no-repeat;
+    background: url('../images/new/bg11.jpg') right center no-repeat;
     background-size: cover;
 }
 .faq-left-box .single-faq-left {
@@ -1062,7 +1015,7 @@ a:focus {
 ****************************************/
 
 .testimonial-bg {
-    background: url(../images/testimonial-bg.jpg) no-repeat center center;
+    background: url('../images/testimonial-bg.jpg') no-repeat center center;
     padding: 100px 0 84px;
     background-size: cover;
 }
@@ -1273,11 +1226,11 @@ a:focus {
 ****************************************/
 
 .request-call-bg {
-    background: url(../images/request-bg.jpg) fixed;
+    background: url('../images/request-bg.jpg') fixed;
     padding: 95px 0 68px;
 }
 .request-call-bg2 {
-    background: url(../images/new/bg6.jpg) fixed;
+    background: url('../images/new/bg6.jpg') fixed;
     padding: 100px 0;
 }
 .request-call-bg.request-call-bg-green {
@@ -1976,7 +1929,7 @@ a:focus {
 ****************************************/
 
 .home-cta {
-    background: url(../images/home-cta-bg.jpg) no-repeat fixed;
+    background: url('../images/home-cta-bg.jpg') no-repeat fixed;
     background-size: cover;
     position: relative;
     padding-top: 67px;
@@ -2017,7 +1970,7 @@ a:focus {
     margin-top: 34px;
 }
 .about-cta {
-    background: url(../images/about-cta-bg.jpg) center center no-repeat fixed;
+    background: url'(../images/about-cta-bg.jpg') center center no-repeat fixed;
     background-size: cover;
     position: relative;
 }
