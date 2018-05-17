@@ -2821,7 +2821,7 @@ a.loadmore:hover {
     width: 100%;
     height: 100%;
     padding: 0 40px 20px;
-    background: url(../images/project-item-shadow.png) center bottom no-repeat;
+    background: url('../images/project-item-shadow.png') center bottom no-repeat;
     background-size: cover;
 }
 .project-two .single-project-item .img-holder .overlay .box .content {
@@ -3110,7 +3110,7 @@ a.loadmore:hover {
 .single-sidebar-widget .single-service-broucher {
     border: 1px solid #E7E7EE;
     padding: 30px;
-    background-image: url(../images/pdf.png);
+    background-image: url('../images/pdf.png');
     background-repeat: no-repeat;
     background-position: 95% 85%;
 }
@@ -3479,7 +3479,7 @@ a.loadmore:hover {
     position: relative;
     padding-top: 113px;
     padding-bottom: 145px;
-    background: #15151A url(../images/404-bg.jpg) top center no-repeat fixed;
+    background: #15151A url('../images/404-bg.jpg') top center no-repeat fixed;
     background-size: cover;
 }
 .error-404:before {
