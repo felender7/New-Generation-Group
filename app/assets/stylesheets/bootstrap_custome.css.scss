@@ -8,6 +8,10 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Roboto';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Raleway:400,600,700,800|Roboto:400,700,900';
 
+
+.text-justify{text-align: justify;}
+
+
 body {
     letter-spacing: .03em;
     font-size: 15px;
@@ -17,6 +21,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 a,
 a:hover,
 a:active {
