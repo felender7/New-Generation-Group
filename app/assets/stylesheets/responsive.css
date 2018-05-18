@@ -30,7 +30,7 @@
         border: none;
     }
     .navbar-default .navbar-toggle:hover {
-        border-color: #C4D114;
+        border-color: #F58634;
     }
     .navbar-default .navbar-toggle .icon-bar {
         background: #fff;
@@ -38,7 +38,7 @@
         height: 3px;
     }
     .navbar-default .navbar-toggle:hover .icon-bar {
-        background: #C4D114;
+        background: #F58634;
     }
     .navbar-collapse.collapse {
         display: none!important;
@@ -424,7 +424,7 @@
         margin-bottom: 25px;
     }
     .sec-title .decor-line {
-        background: #C4D114;
+        background: #F58634;
         width: 50px;
         height: 3px;
         display: inline-block;
@@ -741,7 +741,7 @@
     }
     #main-navigation-wrapper.finance-navbar3 .nav > li > a:hover,
     #main-navigation-wrapper.finance-navbar3 .nav > li > a.active {
-        color: #c4d114;
+        color: #F58634;
     }
     .finance-navbar3 .get-quote-btn {
         border-top-right-radius: 0;
