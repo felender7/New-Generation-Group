@@ -1,4 +1,16 @@
 
+$primary-color    :#f58634;
+
+.text-center{text-align: center;}
+.bg-gray {background: #f7f7f7;}
+.intro {padding: 100px 0;}
+.intro .content {padding: 0 30px;}
+.logo-img {width: 70px;margin: 0 auto 15px;}
+
+
+.services-info h3{
+  color: $primary-color ;
+}
 header.company {
   background: image-url('header.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -69,4 +81,223 @@ header.company>.overlay {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+
+/* ----------------------------------------------------------------
+	Contact
+-----------------------------------------------------------------*/
+.contact-info {
+  background-attachment: fixed;
+  background: image-url('contact.jpg');
+  padding: 20px;
+}
+.contact-info .icon {
+  padding: 50px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  float: left;
+  font-size: 20px;
+}
+.contact-info .cont {
+  margin-left: 72px;
+}
+.contact-info h6 {
+  font-family: inherit;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+ .contact-info p {
+  font-size: 14px;
+
+}
+.contact .form input[type='text'],
+.contact .form input[type='email'],
+.contact .form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  border: 0;
+  background: #f7f7f7;
+  border-radius: 5px;
+}
+.contact .form textarea {
+  height: 175px;
+  max-height: 175px;
+  max-width: 100%;
+}
+.contact .form input[type='submit'] {
+  padding: 10px 30px;
+  background: #222;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+.contact .form input[type='submit']:hover {
+  background: #FFB600;
+}
+.contact .themap {
+  background: #222;
+  padding: 0 15px;
+}
+.contact .themap .map-toggle {
+  color: #fff;
+  padding: 30px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+}
+.contact .themap .map-toggle:after {
+  content: 'Open The Map';
+  position: relative;
+  cursor: pointer;
+}
+.contact .themap .map-toggle i {
+  margin-right: 5px;
+  color: #FFB600;
+  cursor: pointer;
+}
+.contact .themap .map-opened:after {
+  content: 'Close The Map';
+  position: relative;
+}
+.contact .themap .map {
+  display: none;
+  height: 380px;
+  width: 100%;
+  border-bottom: 15px solid #222;
+}
+
+/*-------------------------------------------------------
+          [ Overlay Effect Bg image ]
+-------------------------------------------------------*/
+
+[data-overlay-dark],
+[data-overlay-light],
+[data-overlay-color] {
+  position: relative;
+}
+
+[data-overlay-dark] .container,
+[data-overlay-light] .container,
+[data-overlay-color] .container {
+  position: relative;
+  z-index: 2;
+}
+
+[data-overlay-dark]:before,
+[data-overlay-light]:before,
+[data-overlay-color]:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+[data-overlay-dark]:before {
+  background: #000;
+}
+
+[data-overlay-light]:before {
+  background: #fff;
+}
+
+[data-overlay-color]:before {
+  background: red;
+}
+
+[data-overlay-dark] h1,
+[data-overlay-dark] h2,
+[data-overlay-dark] h3,
+[data-overlay-dark] h4,
+[data-overlay-dark] h5,
+[data-overlay-dark] h6,
+[data-overlay-dark] span,
+[data-overlay-color] h1,
+[data-overlay-color] h2,
+[data-overlay-color] h3,
+[data-overlay-color] h4,
+[data-overlay-color] h5,
+[data-overlay-color] h6,
+[data-overlay-color] span {
+  color: #fff;
+}
+
+[data-overlay-dark] p,
+[data-overlay-color] p {
+  color: #bbb;
+}
+
+[data-overlay-dark="0"]:before,
+[data-overlay-light="0"]:before,
+[data-overlay-color="0"]:before {
+  opacity: 0;
+}
+
+[data-overlay-dark="1"]:before,
+[data-overlay-light="1"]:before,
+[data-overlay-color="1"]:before {
+  opacity: 0.1;
+}
+
+[data-overlay-dark="2"]:before,
+[data-overlay-light="2"]:before,
+[data-overlay-color="2"]:before {
+  opacity: 0.2;
+}
+
+[data-overlay-dark="3"]:before,
+[data-overlay-light="3"]:before,
+[data-overlay-color="3"]:before {
+  opacity: 0.3;
+}
+
+[data-overlay-dark="4"]:before,
+[data-overlay-light="4"]:before,
+[data-overlay-color="4"]:before {
+  opacity: 0.4;
+}
+
+[data-overlay-dark="5"]:before,
+[data-overlay-light="5"]:before,
+[data-overlay-color="5"]:before {
+  opacity: 0.5;
+}
+
+[data-overlay-dark="6"]:before,
+[data-overlay-light="6"]:before,
+[data-overlay-color="6"]:before {
+  opacity: 0.6;
+}
+
+[data-overlay-dark="7"]:before,
+[data-overlay-light="7"]:before,
+[data-overlay-color="7"]:before {
+  opacity: 0.7;
+}
+
+[data-overlay-dark="8"]:before,
+[data-overlay-light="8"]:before,
+[data-overlay-color="8"]:before {
+  opacity: 0.8;
+}
+
+[data-overlay-dark="9"]:before,
+[data-overlay-light="9"]:before,
+[data-overlay-color="9"]:before {
+  opacity: 0.9;
+}
+
+[data-overlay-dark="10"]:before,
+[data-overlay-light="10"]:before,
+[data-overlay-color="10"]:before {
+  opacity: 1;
 }

@@ -1,4 +1,4 @@
-
+$primary-color    :#f58634;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -10,16 +10,17 @@
 
 
 .text-justify{text-align: justify;}
-
-
+.text-center{text-align: center;}
+.margin-top-50{margin-top: 50px;}
+.padding-80{padding: 80px}
 body {
-    letter-spacing: .03em;
-    font-size: 15px;
-    color: #898989;
-    line-height: 26px;
-    font-family: "Open Sans", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  letter-spacing: .03em;
+  font-size: 15px;
+  color: #898989;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a,
