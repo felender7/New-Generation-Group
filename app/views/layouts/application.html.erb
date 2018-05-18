@@ -4,12 +4,12 @@
     <title>NewGen Group</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= csrf_meta_tags %>
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
   </head>
 
-  <body>
   <body class="style-home-page2">
     <%- if controller_name == 'home' %>
     <%=  render'shared/slider'%>
@@ -18,7 +18,6 @@
   <%=  render'shared/navbar'%>
     <%= yield %>
   <%=  render'shared/footer'%>
-
 
   </body>
 </html>
