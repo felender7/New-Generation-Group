@@ -1227,7 +1227,7 @@ a:focus {
 ****************************************/
 
 .request-call-bg {
-    background: url('../images/request-bg.jpg') fixed;
+    background: image-url('request-bg.jpg') fixed;
     padding: 95px 0 68px;
 }
 .request-call-bg2 {
@@ -2068,7 +2068,7 @@ a:focus {
     background: #222229;
 }
 .footer-contacts {
-    background: url("../images/new/bg3.jpg") fixed;
+    background: image-url("bg3.jpg") fixed;
     min-height: 124px;
     padding: 41px 0;
     clear: both;
