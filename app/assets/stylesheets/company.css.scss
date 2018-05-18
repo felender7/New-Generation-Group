@@ -11,12 +11,20 @@ $primary-color    :#f58634;
 .services-info h3{
   color: $primary-color ;
 }
+.header-content-inner hr   {
+   border-color: $primary-color;
+   border-width: 3px;
+   max-width: 50px;
+}
+
 header.company {
   background: image-url('header.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+
+
 }
 
 header.company>.overlay {

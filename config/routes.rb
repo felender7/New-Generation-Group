@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
-  get'about', to: 'about#index'
-  resources :company do
-  collection do
-       get'management_consulting'
-      end
-    end
+  get'/about', to: 'about#index'
+
+ get'/management_consulting', to:'company#management_consulting'
+ get'/placements' , to:'company#placements'
+
   root 'home#index'
 end
