@@ -1,6 +1,4 @@
-/*
- *  Owl Carousel - Animate Plugin
- */
+
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
   animation-duration: 1000ms;
@@ -19,7 +17,7 @@
 }
 
 @-webkit-keyframes fadeOut {
-  0 {
+  0% {
     opacity: 1;
   }
 
@@ -28,7 +26,7 @@
   }
 }
 @keyframes fadeOut {
-  0 {
+  0% {
     opacity: 1;
   }
 
