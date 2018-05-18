@@ -1,9 +1,7 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
 
 $primary-color    :#F58634;
 $secondary-color  :#818282;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
@@ -11,6 +9,7 @@ $secondary-color  :#818282;
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Roboto';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Raleway:400,600,700,800|Roboto:400,700,900';
+
 body {
     letter-spacing: .03em;
     font-size: 15px;
@@ -794,7 +793,7 @@ a:focus {
     width: 55%;
     height: 100%;
     position: absolute;
-    background: url(../images/full-img-2.jpg) fixed right center;
+    background: url('../images/full-img-2.jpg') fixed right center;
     background-size: cover;
     top: 0;
 }
@@ -802,7 +801,7 @@ a:focus {
     content: '';
     width: 45%;
     height: 100%;
-    background: url(../images/new/bg2.jpg) no-repeat left center;
+    background: url('../images/new/bg2.jpg') no-repeat left center;
     position: absolute;
     top: 0;
     right: 0;
@@ -4430,8 +4429,7 @@ input[type="checkbox"] {
     min-height: 100%;
 }
 .style-home-page3.header3-inn .bg-header3-inn {
-    background: url("/assets/inn-header3.jpg") center center no-repeat;
-    //background-image:  image-url('inn-header3.jpg') center center no-repeat;
+    background-image: url("/assets/inn-header3.jpg") center center no-repeat;
     min-height: 427px;
     background-size: cover;
 }
@@ -4709,7 +4707,7 @@ input[type="checkbox"] {
 }
 .style-home-page4 .inner-banner {
     background: url("/assets/inn-header4.jpg") no-repeat;
-    //background-image:  image-url('inn-header4.jpg')  no-repeat;
+
     padding: 95px 0;
 }
 .style-home-page4 .inner-banner h3 {
@@ -5344,7 +5342,7 @@ section.profile-work  .professional-work
 }
 section.profile-experience
 {
-	background: url(../images/new/bg-single-member.jpg) center center;
+	background: url('../images/new/bg-single-member.jpg') center center;
 	background-size: cover;
 	min-height: 466px;
 	padding: 115px 0 0 0;
