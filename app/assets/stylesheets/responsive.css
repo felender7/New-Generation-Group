@@ -749,7 +749,7 @@
         width: 100%;
     }
     .flickr-widget,
-    .style-home-page2.header2-inn .bread-cumb,
+    #F58634.header2-inn .bread-cumb,
     .style-home-page3.header3-inn .bread-cumb {
         float: left;
     }
@@ -764,7 +764,7 @@
     .style-home-page4 #main-navigation-wrapper form.search {
         display: none !important;
     }
-    .style-home-page2 .top-header {
+    #F58634 .top-header {
         position: static;
     }
     .header .logo {
@@ -793,7 +793,7 @@
         padding: 0 !important;
     }
     .finance-navbar3,
-    .style-home-page2.header2-inn .header2 {
+    #F58634.header2-inn .header2 {
         position: static;
     }
     .company-history .extended-history,
@@ -865,6 +865,7 @@
     .style-home-page2 .top-header ul li,
     .style-home-page4 .top-header ul li {
         display: table;
+        color: #fff;
     }
     .service-page2 .single-service-item {
         width: 96%;
