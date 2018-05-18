@@ -1,6 +1,4 @@
 
-$primary-color    :#F58634;
-$secondary-color  :#818282;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -77,7 +75,7 @@ a:focus {
 .thm-button {
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
-    background: $secondary-color;
+    background: #818282;
     text-align: center;
     border-radius: 3px;
     display: inline-block;
@@ -100,11 +98,11 @@ a:focus {
 }
 .thm-button.inverse,
 .thm-button:hover {
-    background: $primary-color;
+    background: #F58634;
     color: #171717;
 }
 .thm-button.inverse:hover {
-    background: $primary-color;
+    background: #F58634;
     color: #fff;
 }
 .sec-title {
@@ -123,7 +121,7 @@ a:focus {
     color: #fff;
 }
 .sec-title .decor-line {
-    background: $primary-color;
+    background: #F58634;
     width: 50px;
     height: 3px;
     display: inline-block;
@@ -216,7 +214,7 @@ a:focus {
     padding: 0 20px;
 }
 .header .header-right-info ul li .single-header-right-info .icon-box i {
-    color: $primary-color;
+    color: #F58634;
     font-size: 30px;
 }
 .header .header-right-info ul li .single-header-right-info .text-box p {
@@ -266,7 +264,7 @@ a:focus {
 #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:hover,
 #main-navigation-wrapper.navbar-default .navbar-nav > li:hover > a {
     background: none;
-    color: $primary-color;
+    color: #F58634;
 }
 #main-navigation-wrapper .navbar-form {
     background: #000;
@@ -1249,7 +1247,7 @@ a:focus {
     color: #fff;
 }
 .request-call-bg-green .request-call-form .thm-button {
-    background: $primary-color;
+    background: #F58634;
     color: #fff;
 }
 .request-call-bg2 .request-call-left {
@@ -1743,7 +1741,7 @@ a:focus {
 .blog-page .single-blog-post h3 a:hover {
     font-size: 18px;
     font-weight: bold;
-    color: $primary-color;
+    color: #F58634;
     text-decoration: underline;
 }
 .blog-page .single-blog-post p {
@@ -2171,7 +2169,7 @@ a:focus {
 }
 .footer .title .decor-line,
 .footer .title2 .decor-line {
-    background: $primary-color;
+    background: #F58634;
     width: 45px;
     height: 1px;
     display: inline-block;
@@ -2229,7 +2227,7 @@ a:focus {
     margin-right: 11px;
 }
 .footer .links-widget ul li a:hover {
-    color: $primary-color;
+    color: #F58634;
 }
 .footer .social li a {
     width: 35px;
@@ -2251,8 +2249,8 @@ a:focus {
     font-size: 12px;
 }
 .footer .social li a:hover {
-    color: $primary-color;
-    border-color: $primary-color;
+    color: #F58634;
+    border-color: #F58634;
 }
 .footer .subscribe-widget input {
     width: 100%;
@@ -2296,7 +2294,7 @@ a:focus {
     border-bottom-right-radius: 3px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    background: $primary-color;
+    background: #F58634;
 }
 .footer .newsletter-widget .thm-button i {
     margin: 0;
@@ -3305,8 +3303,8 @@ a.loadmore:hover {
     transition: all .5s ease;
 }
 .service-page2 .single-service-item:hover {
-    background: $primary-color;
-    border: 1px solid $primary-color;
+    background: #F58634;
+    border: 1px solid #F58634;
 }
 .service-page2 .single-service-item:hover p,
 .service-page2 .single-service-item:hover h3 {
@@ -4173,7 +4171,7 @@ input[type="checkbox"] {
     z-index: 999;
 }
 .solutions .thm-container.solution-top {
-    background: $primary-color;
+    background: #F58634;
     min-height: 118px;
     padding: 38px 100px;
 }
@@ -4191,7 +4189,7 @@ input[type="checkbox"] {
 .solutions .thm-button {
     float: right;
     background: transparent;
-    border: 1px solid $secondary-color;
+    border: 1px solid #818282;
 }
 .solutions .single-solution-item .img-box img:hover {
     webkit-transform: scale(1.02);
@@ -4248,7 +4246,7 @@ input[type="checkbox"] {
     content: '\f0a9';
     margin-right: 11px;
     font-family: 'FontAwesome';
-    color: $primary-color;
+    color: #F58634;
 }
 .about-us-section .about-us p {
     margin: 32px 0;
@@ -4366,7 +4364,7 @@ input[type="checkbox"] {
 }
 .thm-button.inverse.white,
 .thm-button:hover {
-    background: $primary-color;
+    background: #F58634;
     color: #171717;
 }
 .thm-button.inverse.white:hover {
