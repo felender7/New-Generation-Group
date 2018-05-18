@@ -1,8 +1,8 @@
 <header class="header2 finance-navbar2">
      <div class="thm-container clearfix">
        <div class="logo pull-left">
-         <a href="/"> <%= image_tag('logo3.png', :alt =>"NewGen Logo" )  %></a>
-           <a href="/"> <%= image_tag('logo-small.png', :alt =>"NewGen Logo" )  %></a></div>
+          <%=render'shared/logos'%>
+         </div>
              <nav id="main-navigation-wrapper" class="navbar navbar-default pull-right">
                <div class="navbar-header">
                  <div class="logo-menu"><%= image_tag('logo-small.png', :alt =>"NewGen Logo" )  %></div>
@@ -15,7 +15,7 @@
 
                    <li class="dropdown"><a href="/services">Companies</a>
                      <ul class="dropdown-submenu">
-                       <li><a href="companies/NewGenManagementConsulting">NewGen Management Consulting</a></li>
+                       <li><a href="company/management_consulting">NewGen Management Consulting</a></li>
                        <li><a href="companies/NewGenerationPlacements">New Generation Placements</a></li>
                        <li><a href="companies/Intelliview">Intelliview</a></li>
                        <li><a href="companies/Delphius">Delphius CIT</a></li>
