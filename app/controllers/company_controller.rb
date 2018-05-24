@@ -4,4 +4,15 @@ class CompanyController < ApplicationController
 
   def placements
   end
+
+  def delphius
+  end
+
+  def dibana
+
+  end
+
+  def newgen_business_solutions
+
+  end
 end
