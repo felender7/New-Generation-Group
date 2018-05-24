@@ -1,5 +1,4 @@
 <header class="company" style="background-image: url(<%= image_path('header3.jpg') %>) ;">
-
     <div class="overlay">
 </header>
 <div class="header-content">
@@ -180,7 +179,7 @@
                 <div class="container content-sm">
                     <div class="row">
                         <div class="col-md-12 col-xs-6 md-margin-bottom-50">
-                            <h1 style="color:#fff">Intelliview is 100% black owned with 62.5% black female owned. Level 1 BBBEE grading.</h1>
+                        <h1><a href="/" class="thm-button">Download Profile </a></h1>
                         </div>
 
                     </div><!--/end row-->
@@ -214,7 +213,7 @@
 
                              <h3>Scheduling</h3>
                                <p> <strong>Scheduling Process</strong></p>
-                                 <ul style="list-style-type:none">
+                                 <ul style="list-style-type:none" class="text-justify">
                                    <li><i class="fa fa-arrow-circle-right"></i> Contact list sanitised</li>
                                    <li><i class="fa fa-arrow-circle-right"></i> Customer contact is done within 48 hours of being placed on the list</li>
                                    <li><i class="fa fa-arrow-circle-right"></i> Installations scheduled no later than 7 working days of being placed on the list</li>
@@ -228,7 +227,7 @@
                                      </ul>
 
                                      <p> <strong>Reporting</strong></p>
-                                       <ul style="list-style-type:none">
+                                       <ul style="list-style-type:none" class="text-justify">
                                          <li><i class="fa fa-arrow-circle-right"></i> Daily reports include: Updated contact list; scheduling report; team reports; customer satisfaction survey; success ratio’s; escalations</li>
                                          <li><i class="fa fa-arrow-circle-right"></i> Weekly reports include: weekly success report; installation schedules; team on-time reports and any other customer required reporting</li>
                                         <li> <strong>A simple 4 step process is followed to allow the customer a smooth and effective Installation experience </strong></li>
@@ -257,22 +256,68 @@
                     </div>
 
                     <div class="col-md-6 animated fadeIn" data-wow-delay="0.3s">
-                       <div class="row">
-                         <h3>Examples of Our Warehousing</h3>
-                         <hr>
-                         <div class="col-md-6"><%=image_tag('mini/warehousing_1.jpg', class:"img-responsive")%></div>
-                         <div class="col-md-6"><%=image_tag('mini/warehousing_2.jpg', class:"img-responsive")%></div>
-                       </div>
+                      <%=render'company/templates/side_images'%>
+                    </div>
 
-                       <div class="row">
-                         <h3>Examples of Our Fleet Branded Vehicles and Typical Team Requirements</h3>
-                         <hr>
-                         <div class="col-md-4"><%=image_tag('mini/vehicles_1.jpg', class:"img-responsive")%></div>
-                         <div class="col-md-4"><%=image_tag('mini/vehicles_2.jpg', class:"img-responsive")%></div>
-                         <div class="col-md-4"><%=image_tag('mini/vehicles_3.jpg', class:"img-responsive")%></div>
-                       </div>
+                   <hr>
+                    <div class="col-md-12 animated fadeIn text-justify" data-wow-delay="0.3s">
+                      <h3>Fibre optic services</h3>
+                      <p>In recent years it has become apparent that fibre-optics are steadily replacing copper wire as an appropriate means of communication signal transmission. Audio, Data and Video can be transmitted seamlessly along great distances and today, fibre provides the backbone for many network systems. Intelliview has identified the need for a specialized division with highly trained staff and state of the art equipment to offer a complete fibre optic and telecommunication solution</p>
+                        <br>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h3>Consultation</h3>
+                          <p>Intelliview provides network consultation delivering viable and cost-effective solutions</p>
+
+                          <h3>Design</h3>
+                          <p>Intelliview offers a total solution of design and engineering services including strand mapping, network drafting and designing of fibre optic and RF backbones</p>
+
+                          <h3>Installation</h3>
+                          <p>Intelliview delivers quality construction including aerial and underground for fibre and utilizes state of the art fibre optic equipment to maintain:</p>
+
+                          <ul style="list-style-type:none">
+                            <li><i class="fa fa-arrow-circle-right"></i> Maximum efficiency and lower splice loss</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> Provide superior performance on your network and fibre installation</li>
+                          </ul>
+
+                          <h3>Complete Fibre Optic Services</h3>
+                          <ul style="list-style-type:none">
+                            <li><i class="fa fa-arrow-circle-right"></i> Complete fibre optic fusion splicing</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> Complete testing services such as; end to end, reel testing, and splice loss testing, and power meter/laser source testing</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> Emergency restoration and in-service "hot cuts"</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> Custom cable assemblies</li>
+                          </ul>
+
+                          <h3>Complete Placement Services</h3>
+                          <ul style="list-style-type:none">
+                            <li><i class="fa fa-arrow-circle-right"></i> Place inner duct</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> Place manholes</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> Place fibre cable - all sizes</li>
+                            <li><i class="fa fa-arrow-circle-right"></i> Long-haul installations</li>
+                          </ul>
+
+                        </div>
+                        <div class="col-md-6">
+                         <%=render'company/templates/side_images_2'%>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 animated fadeIn" data-wow-delay="0.3s">
+                      <h3>Wayleaves Consulting Services</h3>
+                      <ul style="list-style-type:none">
+                        <li><i class="fa fa-arrow-circle-right"></i> Turnaround time for wayleave application is minimized</li>
+                        <li><i class="fa fa-arrow-circle-right"></i> Consistent management of wayleave process and landowner management across projects and regions</li>
+                        <li><i class="fa fa-arrow-circle-right"></i> Provide wayleave consultation service to teams responsible for regional projects in order to resolve difficult wayleave cases.</li>
+                        <li><i class="fa fa-arrow-circle-right"></i> Manage a large volume of challenging wayleave issues for all province projects.</li>
+                        <li><i class="fa fa-arrow-circle-right"></i> Work with legal advisors to resolve legal issues.</li>
+                        <li><i class="fa fa-arrow-circle-right"></i> Liaise with project consultants, planners, customers, land agents, legal representatives and project staff.</li>
+                        <li><i class="fa fa-arrow-circle-right"></i> Manage documentation and records of interactions..</li>
+                        <li><i class="fa fa-arrow-circle-right"></i> Work hand in hand with wayleave support coordinators</li>
+                        <li><i class="fa fa-arrow-circle-right"></i> Site meetings around South Africa are attended on behalf of the client.</li>
+                        <li><i class="fa fa-arrow-circle-right"></i> 100% success rate</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-                <hr>
-  <%=render'contacts'%>
+                <br><br>
