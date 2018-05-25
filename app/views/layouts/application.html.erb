@@ -17,7 +17,8 @@
   <%=  render'shared/top'%>
   <%=  render'shared/navbar'%>
     <%= yield %>
-  <%=  render'shared/footer'%>
+  <%= render'shared/button_banner'%>
+  <%= render'shared/footer'%>
 
 
 
@@ -27,6 +28,10 @@
      animation: 'ease-out',
      map: {x: 200, y: 100, z: 0},
      autoplay: true, interval: 5.5
+    })
+
+    $(function () {
+      $('[data-toggle="popover"]').popover()
     })
   </script>
   </body>

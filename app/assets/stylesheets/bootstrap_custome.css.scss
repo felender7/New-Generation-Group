@@ -14,6 +14,7 @@ img{width: 100%;}
 .text-center{text-align: center;}
 .margin-top-50{margin-top: 50px;}
 .padding-80{padding: 80px}
+.bg-color-red {background-color: $primary-color !important;}
 body {
   letter-spacing: .03em;
   font-size: 15px;
@@ -5714,4 +5715,25 @@ section.case-details-sec-2-slider
 .show-mobile
 {
 	display: none !important;
+}
+.call-action-v1 .call-action-v1-box {
+    width: 100%;
+    display: table;
+    padding: 30px 0;
+    vertical-align: middle;
+    color: #fff;
+}
+.call-action-v1 .call-action-v1-in.inner-btn {
+    min-width: 250px;
+    text-align: right;
+}
+
+.call-action-v1 .call-action-v1-in {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn-u.btn-brd.btn-u-light {
+    color: #fff;
+    border-color: #fff;
 }
