@@ -19,5 +19,15 @@
     <%= yield %>
   <%=  render'shared/footer'%>
 
+
+
+  <script type="text/javascript">
+  $('#autoplay').textition({
+     speed: 1,
+     animation: 'ease-out',
+     map: {x: 200, y: 100, z: 0},
+     autoplay: true, interval: 5.5
+    })
+  </script>
   </body>
 </html>
