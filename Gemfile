@@ -21,6 +21,7 @@ gem 'jquery-rails'
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 4.3'
 gem 'devise'
+gem 'devise-bootstrapped', '~> 0.1.1'
 gem 'bcrypt', '~> 3.1.11'
 gem "font-awesome-rails"
 gem 'will_paginate-bootstrap'

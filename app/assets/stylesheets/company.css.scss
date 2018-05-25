@@ -2,13 +2,30 @@
 $primary-color    :#f58634;
 
 .text-center{text-align: center;}
-.bg-gray {background: #f7f7f7;}
+.bg-gray {background: #e4e4e4;}
 .intro {padding: 100px 0;}
 .intro .content {padding: 0 30px;}
 .logo-img {width: 70px;margin: 0 auto 15px;}
 .services-info h3{color: $primary-color ;}
 .text-justify{text-align: justify;}
+.margin-10{margin-right: 10px}
 h3{color: $primary-color ;}
+.panel-default{
+    font-size:18px;
+    color: #fff;
+    text-align: center;
+    background-color: $primary-color;
+    border-color: $primary-color;
+
+    height: 232px;
+    line-height: inherit;
+    margin-left: auto;
+    margin-right: 5px;
+
+}
+.panel-default p{
+    margin-top: 70px;
+}
 #read-more-d{
   display: none;
 }
