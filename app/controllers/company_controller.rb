@@ -1,4 +1,7 @@
 class CompanyController < ApplicationController
+  def companies
+
+  end
   def management_consulting
   end
 

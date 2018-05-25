@@ -1,2 +1,114 @@
+<header class="company" style="background-image: url(<%= image_path('header4.jpg') %>) ;">
+    <div class="overlay">
+</header>
+<div class="header-content">
+    <div class="header-content-inner">
+        <h1 id="homeHeading">DELPHIUS CIT</h1>
+        <hr>
+        <p>Specializes in a variety of solutions in the telecommunication market. </p>
+        <a href="#about-intro" class="thm-button inverse">Find Out More</a>
+    </div>
+</div>
 
-<h3><%='error-404%'></h3>
+<section id="about-intro">
+<div class="intro bg-gray text-center">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12 content wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+              <a class="logo-img" href="#">
+                  <%=image_tag('brand.png', class:"logo-img")%>
+              </a>
+              <h4>Delphius was established in May 2006 and has a proven track record within the market</h4>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<!--section services start here-->
+        <section id="services" class="padding-80">
+            <div class="services-section-1 text-justify">
+                <div class="container">
+                    <div class="section-heading text-center">
+                        <h4 class="small section-title"><span>What we do?</span></h4>
+                        <h2 class="large section-title" style="color:#f58634">Our Services</h2>
+                    </div><!--section heading-->
+                </div><!--container-->
+            <div class="container">
+              <div class="row">
+             <div class="col-md-6">
+                 <h4>Delphius CIT</h4>
+                 <p>Delphius Commercial and Industrial Technologies (Pty) Ltd, or short form Delphius CIT, specializes in a variety of solutions in the telecommunication market.
+                    Providing:</p>
+                    <ul style="list-style-type:none">
+                      <li><i class="fa fa-arrow-circle-right"></i> RF Integration, </li>
+                      <li><i class="fa fa-arrow-circle-right"></i> Capacity and,</li>
+                      <li><i class="fa fa-arrow-circle-right"></i> Coverage solutions to network operators.</li>
+                    </ul>
+                   <p>Delphius was established in May 2006 and has a proven track record within the market. We have a reputation of being able to deliver new and innovative services and solutions to accommodate the ever-changing needs of our fast-changing market.</p> <a href="#" class="btn btn-sm btn-default">Read More</a>
+                   <div id="read-more-d">
+                   <p>In the power and telecommunication market Delphius provides various services including the design and implementation of passive and active distributed antenna systems and specialized site designs including manufacture and installation of these solutions. </p>
+                   Delphius also provides solar and hybrid solutions for off grid applications.
+                   <p>The Delphius team is diversified and includes a highly qualified technical RF and system integration team consisting of experienced senior engineers, a design office with mechanical engineering expertise and various technical draughtsman, as well as a production and installation team with various levels of technicians. </p>
+                   <p>We offer a full range of solutions through the distribution of complementary products and services in the case of filter and antenna products from Filtronics. </p>
+                  </div>
+             </div>
+             <div class="col-md-6">
+                 <%=image_tag('mockup1.png', class:"img-responsive ")%>
+             </div>
+         </div>
+            </div><!--services section 1 end-->
+          </section>
+         <div class="container">
+             <div class="row content-boxes-v4 content-boxes-v4-sm margin-bottom-30 ">
+                <div class="col-md-6 md-margin-bottom-40">
+                    <div class="content-boxes-in-v4">
+                        <h3>The Supply of Wireless Telecommunication Equipment and Services</h3><hr>
+                        <p class="text-justify">We offer a full range of solutions through the distribution of complementary products and services of our international and local partners. Delphius also specializes in the design and installation of optimal passive distributed antenna systems (DAS) and the development and production of niche market components.
+                          Our clients include most leading telecommunication providers such as Vodacom, MTN, Cell-C and Telkom.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 md-margin-bottom-40 pull-right">
+                    <div class="content-boxes-in-v4">
+                        <h3>Design and Manufacture of Niche Market Defense Antennas </h3><hr>
+                        <p class="text-justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                </div>
+
+            </div>
+          <div class="row content-boxes-v4 content-boxes-v4-sm margin-bottom-30 ">
+            <div class="col-md-12 md-margin-bottom-40">
+                <div class="content-boxes-in-v4">
+                    <h3>The Supply of Wireless Telecommunication Equipment and Services</h3><hr>
+                    <p class="text-justify">Delphius is a level 3 B-BBEE Contributor. Delphius is currently embarking on a program to improve its B-BBEE rating to a level 1 Contribution we had before moving out of the SMME BEE category.
+                    </p>
+                </div>
+            </div>
+         </div>
+
+         <div class="row content-boxes-v4 content-boxes-v4-sm margin-bottom-30 ">
+           <div class="col-md-12 md-margin-bottom-40">
+               <div class="content-boxes-in-v4">
+                   <h3>Quality Management </h3><hr>
+                   <p class="text-justify">Delphius is currently in the process of getting ISO9001, 14001 and 18001 certified.
+                   </p>
+               </div>
+           </div>
+        </div>
+
+         <div class="row content-boxes-v4 content-boxes-v4-sm margin-bottom-30 ">
+           <div class="col-md-12 md-margin-bottom-40">
+               <div class="content-boxes-in-v4">
+                   <h3>Health and Safety </h3><hr>
+                   <p class="text-justify">Delphius has a comprehensive OHS program with NASA vetting in place.
+                   </p>
+               </div>
+           </div>
+        </div>
+        <br><br>
+        <h3>Products and Completed Projects  </h3>
+        <br>
+        <!--tabs-->
+        <%=render'company/templates/tabs'%>
+    </div>
