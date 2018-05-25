@@ -5,9 +5,6 @@ class CompanyController < ApplicationController
   def management_consulting
   end
 
-  def placements
-  end
-
   def delphius
   end
 
@@ -16,6 +13,12 @@ class CompanyController < ApplicationController
   end
 
   def newgen_business_solutions
+  end
 
+  def id4
+  end
+
+  def infraport
+    
   end
 end
