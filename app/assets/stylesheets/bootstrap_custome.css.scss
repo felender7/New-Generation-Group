@@ -8,7 +8,8 @@ $primary-color    :#f58634;
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Roboto';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Raleway:400,600,700,800|Roboto:400,700,900';
 
-li a  {color: $primary-color}
+strong{color: $primary-color;}
+li a  {color: $primary-color;}
 img{width: 100%;}
 .text-justify{text-align: justify;}
 .text-center{text-align: center;}
@@ -29,6 +30,7 @@ a,
 a:hover,
 a:active {
     text-decoration: none;
+    color: $primary-color;
 }
 input,
 textarea,
