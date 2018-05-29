@@ -1,4 +1,7 @@
-$primary-color    :#f58634;
+$primary-color                  : #f58634;
+$btn-primary-bg                 : $primary-color ;
+
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -8,6 +11,15 @@ $primary-color    :#f58634;
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Roboto';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Raleway:400,600,700,800|Roboto:400,700,900';
 
+
+/*read more*/
+
+#more-about{display: none;}
+
+
+/*read more end*/
+.btn{border-radius: 1px;}
+.primary-color{color: $primary-color;}
 strong{color: $primary-color;}
 li a  {color: $primary-color;}
 img{width: 100%;}
@@ -28,10 +40,8 @@ body {
 
 a,
 a:hover,
-a:active {
-    text-decoration: none;
-    color: $primary-color;
-}
+a:active {text-decoration: none;color: $primary-color;}
+
 input,
 textarea,
 button {
@@ -190,7 +200,7 @@ a:focus {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('../images/new/bg1.jpg') repeat;
+    background: url('bg1.jpg') repeat;
     content: '';
     background-size: cover;
 }
@@ -4376,7 +4386,7 @@ input[type="checkbox"] {
     color: #171717;
 }
 .thm-button.inverse.white:hover {
-    background: #46b9e3;
+    background: $primary-color;
     color: #fff;
 }
 .partner2 {

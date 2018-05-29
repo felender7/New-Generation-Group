@@ -1,5 +1,5 @@
 <header class="company" style="background-image: url(<%= image_path('header7.jpg') %>) ;">
-    <div class="overlay">
+        <div class="overlay"></div>
 </header>
 <div class="header-content">
     <div class="header-content-inner">
@@ -86,9 +86,7 @@
                             <div class="col-md-3">
                               <div class="panel panel-default panel-default-company" style="height:100%";>
                                  <div class="panel-heading"><h4 style="color:#f58634">DEVICES & SOFT-</h4></div>
-                                   <div class="panel-body">
-
-                                   </div>
+                                      <%=image_tag('mini/softwares.jpg', class:"img-responsive")%>
                                 </div>
                             </div>
                           </div>
@@ -103,18 +101,8 @@
                   </div>
             </div><!--services section 1 end-->
              <div class="container">
-                       <hr>
-               <div class="row">
-                 <div class="col-md-12">
-                   <div class="jumbotron text-center header-content-inner hr">
-                  <p>Contact us now and you can be connected today</p>
-                  <hr>
-                    <a data-animation="animated fadeInLeft" href="#" class="thm-button">Get started <i class="fa fa-arrow-right"></i></a>
-
-                   </div>
-                 </div>
-               </div>
-
+                <%=render'company/templates/mini_contact'%>
+             </div>
         </section>
 
         <!--section services end here-->

@@ -1,24 +1,30 @@
 class CompanyController < ApplicationController
-  def companies
+      def companies
 
-  end
-  def management_consulting
-  end
+      end
 
-  def delphius
-  end
+      def management_consulting
+      end
 
-  def dibana
+      def delphius
+      end
 
-  end
+      def dibana
 
-  def newgen_business_solutions
-  end
+      end
 
-  def id4
-  end
+      def newgen_business_solutions
+      end
 
-  def infraport
-    
-  end
+      def id4
+      end
+
+      def infraport
+
+      end
+
+      def business_consulting
+        
+      end
+
 end

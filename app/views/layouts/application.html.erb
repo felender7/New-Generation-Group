@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>NewGen Group</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Developer" content="Felender Hlungwani">
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -10,17 +11,21 @@
 
   </head>
 
-  <body class="style-home-page2" style="background-image: url(<%= image_path('globe-background.png') %>) ;">
+  <body class="style-home-page2" style="background-image: url(<%= image_path('globe-background.png')%> ); background-position: bottom left no-repeat ;">
+
     <%- if controller_name == 'home' %>
     <%=  render'shared/slider'%>
   <% end %>
   <%=  render'shared/top'%>
-  <%=  render'shared/navbar'%>
+  <%- if controller_name != 'sessions' %>
+    <%=  render'shared/navbar'%>
+  <% end -%>
     <%= yield %>
+
+<%- if controller_name != 'sessions' %>
   <%= render'shared/button_banner'%>
   <%= render'shared/footer'%>
-
-
+<% end -%>
 
   <script type="text/javascript">
   $('#autoplay').textition({
@@ -30,9 +35,6 @@
      autoplay: true, interval: 5.5
     })
 
-    $(function () {
-      $('[data-toggle="popover"]').popover()
-    })
   </script>
   </body>
 </html>
