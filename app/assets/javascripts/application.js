@@ -22,8 +22,15 @@ $(function(){
       //hide alert after 5 second
       $('.alert').delay( 5000 ).fadeOut( 1000 );
 
-    
+
       $(function () {
           $('[data-toggle="tooltip"]').tooltip()
+      })
+
+      $(function (){
+        $("#std").click(function({
+           ('.list-group-item').addClass('.btn')
+        }))
+
       })
 });

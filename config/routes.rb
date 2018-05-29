@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
- get'/about', to: 'about#index'
+ get'/business_consulting', to:'pages#business_consulting'
+ get'/strategy_development', to:'pages#strategy_development'
+ get'/about', to: 'about#index', as:'about-us'
  get'/companies', to:'company#companies'
  get'/management_consulting', to:'company#management_consulting'
  get'/intelliview', to:'company#intelliview'

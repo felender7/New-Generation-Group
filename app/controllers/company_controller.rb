@@ -1,4 +1,5 @@
 class CompanyController < ApplicationController
+
       def companies
 
       end
@@ -22,9 +23,4 @@ class CompanyController < ApplicationController
       def infraport
 
       end
-
-      def business_consulting
-        
-      end
-
 end
