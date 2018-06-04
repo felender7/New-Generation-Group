@@ -4722,7 +4722,6 @@ input[type="checkbox"] {
     display: none;
 }
 .style-home-page4 .inner-banner {
-    background: url("/assets/inn-header4.jpg") no-repeat;
 
     padding: 95px 0;
 }
@@ -4768,44 +4767,7 @@ input[type="checkbox"] {
     border-top: 1px solid #e5e5e5 !important;
     border: none;
 }
-.note-bg2 .item1-bg {
-    background: url("../images/new/bg-note1.jpg") no-repeat;
-}
-.note-bg2 .item2-bg {
-    background: url("../images/new/bg-note2.jpg") no-repeat;
-}
-.note-bg2 .item3-bg {
-    background: url("../images/new/bg-note3.jpg") no-repeat;
-}
-.note-bg2 .item {
-    float: left;
-    width: 33.33%;
-    min-height: 230px;
-    padding: 55px;
-    background-size: cover;
-}
-.note-bg2 .item h2 {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0 0 20px 0;
-}
-.note-bg2 .item p {
-    font-size: 15px;
-    margin: 0;
-}
-.note-bg2 .item h2.white,
-.note-bg2 .item p.white {
-    color: #fff;
-}
-.note-bg2 .item h2.black,
-.note-bg2 .item p.black {
-    color: #000;
-}
-.note-bg2 .center-box {
-    text-align: center;
-}
+
 .causes-carousel .owl-controls .owl-nav div {
     background: transparent;
     border-radius: 0;
@@ -4938,7 +4900,6 @@ input[type="checkbox"] {
 ****************************************/
 .comming-soon-sec
 {
-	background: url("../images/new/bg-comming-soon.jpg") center center no-repeat;
 	padding: 145px 0 284px 0;
 	min-height: 1024px;
 	background-size: cover;
@@ -5358,7 +5319,6 @@ section.profile-work  .professional-work
 }
 section.profile-experience
 {
-	background: url('../images/new/bg-single-member.jpg') center center;
 	background-size: cover;
 	min-height: 466px;
 	padding: 115px 0 0 0;
@@ -5704,7 +5664,6 @@ section.profile-question
 }
 .project-carousel  .owl-prev
 {
-	background: url("../images/new/icon-prev.png") !important;
 	width: 42px;
 	height: 42px;
 	position: absolute;
@@ -5713,7 +5672,6 @@ section.profile-question
 }
 .project-carousel   .owl-next
 {
-	background: url("../images/new/icon-next.png") !important;
 	width: 42px;
 	height: 42px;
 	position: absolute;
