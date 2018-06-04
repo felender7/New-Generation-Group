@@ -26,11 +26,4 @@ $(function(){
       $(function () {
           $('[data-toggle="tooltip"]').tooltip()
       })
-
-      $(function (){
-        $("#std").click(function({
-           ('.list-group-item').addClass('.btn')
-        }))
-
-      })
 });
