@@ -6,4 +6,6 @@ class PagesController < ApplicationController
   def business_consulting
   end
 
+  def change_management
+  end
 end

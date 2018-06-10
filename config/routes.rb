@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
  get'contact_us', to: 'contacts#index'
+ get'change_management', to:'pages#change_management'
  get'/business_consulting', to:'pages#business_consulting'
  get'/strategy_development', to:'pages#strategy_development'
  get'/about', to: 'about#index', as:'about-us'
